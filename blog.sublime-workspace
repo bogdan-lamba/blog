@@ -1,0 +1,637 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 1665,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/partials/master.blade.php",
+			"settings":
+			{
+				"buffer_size": 477,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/partials/head.blade.php",
+			"settings":
+			{
+				"buffer_size": 752,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/posts/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 5435,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/partials/sidebar.blade.php",
+			"settings":
+			{
+				"buffer_size": 1412,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/posts/show.blade.php",
+			"settings":
+			{
+				"buffer_size": 82,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/partials/header.blade.php",
+			"settings":
+			{
+				"buffer_size": 226,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"colors",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"artisan",
+				"Laravel Artisan 5: Help"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"color sc",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"package resource",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"instal pa",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime in",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color sub",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"material theme",
+				"Material Theme: Extras"
+			],
+			[
+				"mate",
+				"Material Theme: Info"
+			],
+			[
+				"Package Control",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"pwd",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/blog",
+		"/C/xampp/htdocs/blog/app",
+		"/C/xampp/htdocs/blog/app/Http",
+		"/C/xampp/htdocs/blog/app/Http/Controllers",
+		"/C/xampp/htdocs/blog/public",
+		"/C/xampp/htdocs/blog/public/css",
+		"/C/xampp/htdocs/blog/public/js",
+		"/C/xampp/htdocs/blog/resources",
+		"/C/xampp/htdocs/blog/resources/views",
+		"/C/xampp/htdocs/blog/resources/views/partials"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/blog/resources/views/test.php",
+		"/C/xampp/htdocs/blog/resources/views/partials/footer.blade.php",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/PostsController.php",
+		"/C/xampp/htdocs/blog/public/css/blog.css",
+		"/C/xampp/htdocs/blog/resources/views/partials/nav.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/layout.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/head.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/layouts/nav.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/layouts/footer.blade.php",
+		"/C/Users/Bogdan Lamba/Desktop/AdNetsignature.html",
+		"/C/Users/Bogdan Lamba/Desktop/semnatura_adnet.html",
+		"/C/xampp/htdocs/blog/resources/views/posts/index.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/welcome.blade.php",
+		"/E/semnatura/semnatura_adnet.html",
+		"/E/semnatura/semnatura.html",
+		"/C/xampp/htdocs/blog/public/css/album.css",
+		"/C/xampp/htdocs/blog/database/migrations/2018_06_07_103242_create_posts_table.php",
+		"/C/Users/Bogdan Lamba/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/test.php",
+		"/C/xampp/htdocs/blog/app/Task.php",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/TasksController.php",
+		"/C/Users/Bogdan Lamba/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/C/Users/Bogdan Lamba/AppData/Roaming/Sublime Text 3/Packages/Material Theme/Material-Theme.sublime-theme",
+		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/C/xampp/htdocs/blog/vendor/symfony/routing/Route.php",
+		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php",
+		"/C/Users/Bogdan Lamba/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Foundation/Inspiring.php",
+		"/C/Users/Bogdan Lamba/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Bogdan Lamba/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/crm_ftp",
+		"/C/xampp/htdocs/blog/routes/web.php",
+		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+		"/C/Users/Bogdan Lamba/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/xampp/htdocs/blog/app/User.php",
+		"/C/Users/Bogdan Lamba/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"overlay_scroll_bar",
+			"serve",
+			"Route",
+			"index",
+			"nume",
+			"});\n",
+			"nume",
+			"$nume"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.189.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/partials/master.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.351.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/partials/head.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/posts/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/partials/sidebar.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1412,
+								1412
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/views/posts/show.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 82,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/views/partials/header.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 79.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 204.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 107.0
+	},
+	"pinned_build_system": "",
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"web",
+				"routes\\web.php"
+			],
+			[
+				"postsco",
+				"app\\Http\\Controllers\\PostsController.php"
+			],
+			[
+				"taskc",
+				"app\\Http\\Controllers\\TasksController.php"
+			],
+			[
+				"welcome",
+				"resources\\views\\welcome.blade.php"
+			],
+			[
+				"taskcon",
+				"app\\Http\\Controllers\\TasksController.php"
+			],
+			[
+				"route",
+				"vendor\\symfony\\routing\\Route.php"
+			],
+			[
+				"",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
