@@ -31,16 +31,13 @@ class PostsController extends Controller
         $post->body = request('body');
         $post->save();
         */
-
         $this->validate(request(), [
            'title' => 'required|min:4|max:100',
            'body'  => 'required'
         ]);
-
         //Post::create(request()->all());//bad->user can add fields to form and submit them
         Post::create(request(['title', 'body']));
         return redirect('/');
-
         //create a new post using the request data
         //save it to the database
         //redirect to homepage
