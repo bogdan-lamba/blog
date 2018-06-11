@@ -20,4 +20,5 @@
 
 <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+{{--
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>--}}
