@@ -20,6 +20,7 @@
     <hr>
 
     {{--Add a comment --}}
+    @if (auth()->check())
     <div class="card">
         <div class="card-block">
             <form method="POST" action="/posts/{{ $post->id }}/comments">
@@ -38,6 +39,7 @@
             </form>
         </div>
     </div>
+    @endif
 
 
 @endsection

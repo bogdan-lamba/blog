@@ -12,9 +12,15 @@ class Post extends Model
         return $this->hasMany(Comment::class);//App\Comment string of class path
     }
 
-    public function addComment($body)
+    public function user()
     {
-        $this->comments()->create(compact('body'));//autoincrements id and adds post_id of $this, or we cna just
+        return $this->belongsTo(User::class);
+    }
+
+    public function addComment($body, $user_id)
+    {
+        $this->comments()->create(compact('body', 'user_id'));//autoincrements id and adds post_id of $this, or we cna
+        // just
         // Comment::create([])
     }
 }

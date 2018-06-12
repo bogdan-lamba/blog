@@ -11,4 +11,9 @@ class Comment extends Model
     {
         return $this->belongsTo(Post::class);//App\Post string for path to class
     }
+
+    public function user() //$comment->user->name
+    {
+        return $this->belongsTo(User::class);
+    }
 }
