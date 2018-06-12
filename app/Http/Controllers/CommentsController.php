@@ -3,11 +3,16 @@
 namespace App\Http\Controllers;
 
 use App\Post;
-use App\Comment;
+//use App\Comment;
 
 class CommentsController extends Controller
 {
     //
+    /*public function __construct()
+    {
+        $this->middleware('auth');
+    }*/
+
     public function store(Post $post)
     {
         /*
@@ -19,7 +24,7 @@ class CommentsController extends Controller
         $this->validate(request(), [
             'body'  => 'required|min:2'
         ]);
-        $post->addComment(request('body'));
+        $post->addComment(request('body'), \Auth::user()->id);
 
         return back();
     }

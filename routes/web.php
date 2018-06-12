@@ -11,14 +11,23 @@
 |
 */
 
-
-
-Route::get('/','PostsController@index');
+Route::get('/','PostsController@index')->name('home');//named for redirect()->home()
+Route::get('/home','PostsController@index');//for guest middleware
 Route::get('/posts','PostsController@index');
 Route::get('/posts/create', 'PostsController@create');
 Route::get('/posts/{post}', 'PostsController@show');
 Route::post('/posts', 'PostsController@store');
+
 Route::post('/posts/{post}/comments', 'CommentsController@store');
+
+Route::get('/register', 'RegistrationController@create');
+Route::post('/register', 'RegistrationController@store');
+
+Route::get('/login', 'SessionsController@create')->name('login');//for the auto redirect to login on guests trying to
+// visit pages that require login
+Route::post('/login', 'SessionsController@store');
+Route::get('/logout', 'SessionsController@destroy');//should be post request so ppl dont get sent link to logout
+
 
 /*
 use App\Task;
