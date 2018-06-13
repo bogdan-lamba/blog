@@ -14,8 +14,14 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        //perform this logic after framework is loaded
+
         Schema::defaultStringLength(191);
+
+        view()->composer('partials.sidebar', function ($view) {
+            $view->with('archives', \App\Post::archives());
+        });//callback function that returns $view variable to partials.sidebar every time its loaded
+
     }
 
     /**
