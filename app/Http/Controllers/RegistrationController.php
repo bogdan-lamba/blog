@@ -3,9 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use App\Mail\Welcome;
 
 class RegistrationController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('guest');
+    }
+
     public function create()
     {
         return view('registration.create');
@@ -29,6 +35,9 @@ class RegistrationController extends Controller
 
         //auth()->login($user);
         \Auth::login($user);//Auth facade, same for \Request:: instead of request()->
+
+        \Mail::to($user)->send(new Welcome($user));
+
         return redirect()->home();//need to name the route
     }
 }

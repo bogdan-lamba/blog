@@ -12,6 +12,7 @@
                 <a class="nav-link" href="/logout"><i>Logout</i></a>
             @else
                 <a class="nav-link" href="/login">Sign In</a>
+                <a class="nav-link " href="/register">Register</a>
             @endif
         </nav>
     </div>
