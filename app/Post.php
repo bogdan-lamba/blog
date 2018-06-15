@@ -18,6 +18,11 @@ class Post extends Model
         return $this->belongsTo(User::class);
     }
 
+    public function tags(){
+        return $this->belongsToMany(Tag::class);//App\Post::with('tags')->get() all posts with tags in one query (join)
+        //$post->tags()->attach($tag) or dettach($tag)
+    }
+
     public function addComment($body, $user_id)
     {
         $this->comments()->create(compact('body', 'user_id'));//autoincrements id and adds post_id of $this, or we cna

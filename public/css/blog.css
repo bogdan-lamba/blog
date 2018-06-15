@@ -36,6 +36,19 @@ h6, .h6 {
  * Masthead for nav
  */
 
+#flash-message {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    animation: flash-message 4s forwards;
+}
+
+@keyframes flash-message {
+    0%   {opacity: 1;}
+    100% {opacity: 0; display:none;}
+}
+
 .blog-masthead {
     margin-bottom: 3rem;
     background-color: #428bca;
