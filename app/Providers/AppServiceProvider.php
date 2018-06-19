@@ -20,6 +20,7 @@ class AppServiceProvider extends ServiceProvider
 
         view()->composer('partials.sidebar', function ($view) {
             $view->with('archives', \App\Post::archives());
+            $view->with('tags', \App\Tag::has('posts')->pluck('name'));
         });//callback function that returns $view variable to partials.sidebar every time its loaded
 
     }
